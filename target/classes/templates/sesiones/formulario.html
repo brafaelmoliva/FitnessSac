@@ -96,6 +96,26 @@
             <label>Descripción</label>
             <textarea class="form-control" th:field="*{descripcion}" rows="3"></textarea>
         </div>
+		<div class="row mb-3">
+		    <div class="col-md-6">
+		        <label>Trainer</label>
+				<select class="form-select" th:field="*{trainer}">
+				    <option th:each="trainer : ${listaTrainers}" 
+				            th:value="${trainer.idTrainer}" 
+				            th:text="${trainer.nombre}"></option>
+				</select>
+		    </div>
+		    <div class="col-md-6">
+		        <label>Lugar</label>
+
+				<select class="form-select" th:field="*{lugar}">
+				    <option th:each="lugar : ${listaLugares}" 
+				            th:value="${lugar.idLugar}" 
+				            th:text="${lugar.nombre}"></option>
+				</select>
+		    </div>
+		</div>
+
 
         <div class="text-end">
             <button type="submit" class="btn btn-success">Guardar Sesión</button>

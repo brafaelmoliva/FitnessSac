@@ -8,17 +8,32 @@ import java.time.LocalTime;
 @Table(name = "Sesion")
 public class Sesion {
     @Id
+    @Column(name = "id_sesion")
     private Integer idSesion;
 
     private LocalDate fecha;
     private String tipo;
+
+    @Column(name = "hora_inicio")
     private LocalTime horaInicio;
+
+    @Column(name = "hora_fin")
     private LocalTime horaFin;
+
     private Integer duracion;
     private Integer capacidad;
 
     @Column(columnDefinition = "TEXT")
     private String descripcion;
+
+    // Relaciones con Trainer y Lugar
+    @ManyToOne
+    @JoinColumn(name = "id_trainer")
+    private Trainer trainer;
+
+    @ManyToOne
+    @JoinColumn(name = "id_lugar")
+    private Lugar lugar;
 
     // Getters y setters
     public Integer getIdSesion() { return idSesion; }
@@ -44,4 +59,10 @@ public class Sesion {
 
     public String getDescripcion() { return descripcion; }
     public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+
+    public Trainer getTrainer() { return trainer; }
+    public void setTrainer(Trainer trainer) { this.trainer = trainer; }
+
+    public Lugar getLugar() { return lugar; }
+    public void setLugar(Lugar lugar) { this.lugar = lugar; }
 }

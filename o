@@ -1,0 +1,14 @@
+[33m68a3c3b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/Barbara-Trainers-DispoTrainers[m[33m)[m HEAD@{0}: reset: moving to HEAD
+[33m68a3c3b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/Barbara-Trainers-DispoTrainers[m[33m)[m HEAD@{1}: merge origin/Barbara-Trainers-DispoTrainers: Fast-forward
+[33m79d7d65[m[33m ([m[1;32mbrianBranch[m[33m)[m HEAD@{2}: merge brianBranch: Fast-forward
+[33m0051ebc[m[33m ([m[1;31morigin/brianBranch[m[33m)[m HEAD@{3}: checkout: moving from brianBranch to master
+[33m79d7d65[m[33m ([m[1;32mbrianBranch[m[33m)[m HEAD@{4}: commit (amend): Sesiones mantenimiento V1
+[33m6e0c661[m HEAD@{5}: commit: Sesiones mantenimiento V1
+[33m0051ebc[m[33m ([m[1;31morigin/brianBranch[m[33m)[m HEAD@{6}: checkout: moving from master to brianBranch
+[33m0051ebc[m[33m ([m[1;31morigin/brianBranch[m[33m)[m HEAD@{7}: merge brianBranch: Fast-forward
+[33md770eef[m HEAD@{8}: checkout: moving from brianBranch to master
+[33m0051ebc[m[33m ([m[1;31morigin/brianBranch[m[33m)[m HEAD@{9}: commit: prueba
+[33md770eef[m HEAD@{10}: checkout: moving from master to brianBranch
+[33md770eef[m HEAD@{11}: checkout: moving from brianBranch to master
+[33md770eef[m HEAD@{12}: checkout: moving from master to brianBranch
+[33md770eef[m HEAD@{13}: commit (initial): Primer commit del proyecto FitnessSac
